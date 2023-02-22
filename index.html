@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priority task manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar" title="Sort tasks according to priority">
+        <div class="filter__container" >
+          <div class="filter" title="lowest priority">
+            <div class="blue-color" title="lowest priority"></div>
+          </div>
+          <div class="filter">
+            <div class="green-color"></div>
+          </div>
+          <div class="filter">
+            <div class="orange-color"></div>
+          </div>
+          <div class="filter" title="highest priority">
+            <div class="red-color" title="highest priority"></div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__container">
+        <!-- <div class="ticket">
+            <div class="ticket__color">
+
+            </div>
+            <div class="task__id">#53232</div>
+            <div class="ticket__box" contenteditable>
+
+            </div>
+        </div> -->
+      </div>
+
+      <div class="action__container">
+        <div class="action__btns">
+          <button class="add__btn" id="add__btn" title="Click to Add Tasks">
+            <span class="material-symbols-outlined"> docs_add_on </span>
+          </button>
+          <button class="del">
+            <span class="material-symbols-outlined" title="Click to Delete Tasks"> delete_forever </span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="modal__container">
+      <div class="writing__container" contenteditable>Enter you task...</div>
+      <div class="select__priority__container">
+        <div class="modal-priority blue"></div>
+        <div class="modal-priority green"></div>
+        <div class="modal-priority orange"></div>
+        <div class="modal-priority red"></div>
+      </div>
+    </div> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
